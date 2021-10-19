@@ -11,6 +11,11 @@ public class Produto {
         super();
     }
 
+    public Produto(String nome, Double precoUnitario) {
+        this.nome = nome;
+        this.precoUnitario = precoUnitario;
+    }
+
     public Produto(Integer idProduto, String nome, Double precoUnitario, Integer qtdProduto, String descricao) {
         this.idProduto = idProduto;
         this.nome = nome;
