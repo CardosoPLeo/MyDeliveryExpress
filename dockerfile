@@ -1,1 +1,1 @@
-from openjdk:17-jdk-bullseye
+from maven:3-openjdk-15
